@@ -16,6 +16,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100vh;
 
     .profile {
         display: flex;
@@ -52,18 +53,18 @@ body {
 
         display: flex;
         flex-direction: column;
-        margin: 1.2em;
+        margin: 0.4em 1.5em;
 
         a {     
         text-decoration: none;
         color: #fff;
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
         background-color: rgba(250, 140, 188, 0.5);
         border: 3px solid rgb(14, 91, 151);
         border-radius: 10px ;
         text-transform: capitalize;
-        padding: 0.7em;
+        padding: 0.5em;
         margin: 0.2em 0;
         }
 
