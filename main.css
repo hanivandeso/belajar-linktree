@@ -15,6 +15,7 @@ body {
   background-image: url("background.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .container .profile {
@@ -32,7 +33,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.container .profile p {
+.container .profile h1 {
   font-size: 1.5em;
   font-weight: bold;
   color: white;
@@ -40,13 +41,35 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
+.container .profile p {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
 .container .link {
-  background: green;
-  width: 200px;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 1.2em;
+}
+.container .link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(250, 140, 188, 0.5);
+  border: 3px solid rgb(14, 91, 151);
+  border-radius: 10px;
+  text-transform: capitalize;
+  padding: 0.7em;
+  margin: 0.2em 0;
+}
+.container .link a:hover {
+  background-color: rgba(249, 74, 150, 0.5);
 }
 .container .footer {
-  background: pink;
-  width: 200px;
-  height: 200px;
+  text-align: center;
+}
+.container .footer i {
+  font-size: 12px;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
