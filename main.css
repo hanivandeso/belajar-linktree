@@ -11,9 +11,9 @@ body {
   max-width: 500px;
   height: 100vh;
   margin: 0 auto;
-  background-image: url("background.jpg");
+  background: url("background.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: 1080px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
@@ -68,6 +68,9 @@ body {
 }
 .container .link a:hover {
   background-color: rgba(249, 74, 150, 0.5);
+}
+.container .link span {
+  font-weight: bold;
 }
 .container .footer {
   text-align: center;
